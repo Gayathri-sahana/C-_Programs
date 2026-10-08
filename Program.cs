@@ -1,1 +1,1 @@
-﻿CalciString.Run();
+﻿Interview.Run();

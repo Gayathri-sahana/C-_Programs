@@ -1,1 +1,1 @@
-﻿Grade.Run();
+﻿CalciString.Run();

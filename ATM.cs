@@ -16,23 +16,14 @@ public class ATM
                 Console.WriteLine("\nYour Transaction is Successful");
                 Console.WriteLine("Please Collect Your Cash");
                 balance -= amount;
-                Console.WriteLine("\nEnter '1' to check your balance or '2' to exit");
-                int choice = Convert.ToInt32(Console.ReadLine());
-                if (choice == 1)
-                {
-                    Console.WriteLine("Your Balance is : " + balance);
-                    Console.WriteLine("\nThank You for using our ATM");
-                }
-                else
-                {
-                    Console.WriteLine("\nThank You for using our ATM");
-                }
             }
             else
             {
                 Console.WriteLine("Your Transaction is Unsuccessful");
                 Console.WriteLine("Entered Amount is Greater than Your Balance");
-                Console.WriteLine("\nEnter '1' to check your balance or '2' to exit");
+                
+            }
+            Console.WriteLine("\nEnter '1' to check your balance or '2' to exit");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 if (choice == 1)
                 {
@@ -43,7 +34,6 @@ public class ATM
                 {
                     Console.WriteLine("\nThank You for using our ATM");
                 }
-            }
         }
         else
         {

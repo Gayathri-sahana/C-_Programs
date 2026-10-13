@@ -1,1 +1,1 @@
-﻿ATM.Run();
+﻿Pattern5.Run();

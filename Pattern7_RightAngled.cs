@@ -1,5 +1,6 @@
 
-public class Pattern7
+public class Pattern7_RightAngled
+
 {
     public static void Run()
     {

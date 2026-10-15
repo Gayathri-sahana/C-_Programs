@@ -6,7 +6,7 @@ public class Prime_1to100
         for (int n = 1; n <= 100; n++)
         {
             int count = 0;
-
+            
             for (int i = 1; i <= n; i++)
             {
                 if (n % i == 0)

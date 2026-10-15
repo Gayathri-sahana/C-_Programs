@@ -1,1 +1,1 @@
-﻿PerfectNum_1to100.Run();
+﻿Factorial_1to10.Run();

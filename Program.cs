@@ -1,1 +1,1 @@
-﻿StrongNumber.Run();
+﻿PerfectNum_1to100.Run();

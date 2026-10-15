@@ -1,1 +1,1 @@
-﻿ProductOfDigits.Run();
+﻿StrongNumber.Run();

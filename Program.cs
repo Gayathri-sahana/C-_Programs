@@ -1,1 +1,1 @@
-﻿E_Commerce.Run();
+﻿ProductOfDigits.Run();

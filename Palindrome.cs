@@ -1,4 +1,4 @@
-public class ReverseNumber
+public class Palindrome
 {
     public static void Run()
     {
@@ -13,5 +13,10 @@ public class ReverseNumber
             n = n / 10;
         }
         Console.WriteLine("Reversed number = " + rev);
+
+        if (rev == n)
+            Console.WriteLine("Palindrome");
+        else
+            Console.WriteLine("Not Palindrome");
     }
 }

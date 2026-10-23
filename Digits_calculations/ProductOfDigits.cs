@@ -2,7 +2,7 @@ public class ProductOfDigits
 {
     public static void Run()
     {
-        Console.Write("Enter a number: ");
+        Console.Write("Enter the number: ");
         int n = Convert.ToInt32(Console.ReadLine());
         int product = 1;
         while (n > 0)

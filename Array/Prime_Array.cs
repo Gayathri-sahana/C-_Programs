@@ -4,7 +4,7 @@ public class Prime_Array
     {
         int size;
 
-        Console.WriteLine("Enter the size of the array:");
+        Console.WriteLine("Enter  size of the array:");
         size = Convert.ToInt32(Console.ReadLine());
 
         int[] arr = new int[size];

@@ -2,7 +2,7 @@ public class SumOfDigits
 {
     public static void Run()
     {
-        Console.Write("Enter a number: ");
+        Console.Write("Enter the number: ");
         int n = Convert.ToInt32(Console.ReadLine());
         int sum = 0;
         while (n > 0)

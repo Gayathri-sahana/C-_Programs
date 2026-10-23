@@ -2,7 +2,7 @@ public class Calculator
 {
     public static void Run()
     {
-        Console.Write("Enter first number: ");
+        Console.Write("Enter the first number: ");
         double a = Convert.ToDouble(Console.ReadLine());
 
         Console.Write("Enter operator (+, -, *, /): ");

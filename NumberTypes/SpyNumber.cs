@@ -2,7 +2,7 @@ public class SpyNumber
 {
     public static void Run()
     {
-        Console.Write("Enter a number: ");
+        Console.Write("Enter the number: ");
         int n = Convert.ToInt32(Console.ReadLine());
         int temp = n, sum = 0, prod = 1, rem;
 

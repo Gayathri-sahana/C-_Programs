@@ -2,7 +2,7 @@ public class Kth_Smallest
 {
     public static void Run()
     {
-        Console.Write("Enter number of elements: ");
+        Console.Write("Enter the number of elements: ");
         int n = Convert.ToInt32(Console.ReadLine());
         int[] arr = new int[n];
         Console.Write("Enter " + n + " elements: ");

@@ -1,5 +1,5 @@
 
-public class NumberPattern
+public class PatternTri
 {
     public static void Run()
     {

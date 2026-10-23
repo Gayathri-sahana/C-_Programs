@@ -2,7 +2,7 @@ public class PerfectNumber
 {
     public static void Run()
     {
-        Console.Write("Enter a number: ");
+        Console.Write("Enter the number: ");
         int n = Convert.ToInt32(Console.ReadLine());
         int sum = 0;
         for (int i = 1; i < n; i++)

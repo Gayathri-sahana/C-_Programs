@@ -1,8 +1,7 @@
 
 public class CalciString
 {
-    public static void Run()
-    {
+    public static void Run()    {
         Console.Write("Enter first number: ");
         int n1 = Convert.ToInt32(Console.ReadLine());
 

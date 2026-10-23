@@ -2,7 +2,7 @@ public class Descending
 {
     public static void Run()
     {
-        Console.WriteLine("Enter array size:");
+        Console.WriteLine("Enter the array size:");
         int size = Convert.ToInt32(Console.ReadLine());
         int[] arr = new int[size];
         Console.WriteLine("Enter array elements:");

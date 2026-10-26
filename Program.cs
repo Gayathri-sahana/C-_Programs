@@ -1,1 +1,1 @@
-﻿Factorial_1to10.Run();
+﻿StudentManagementSystem.Run();

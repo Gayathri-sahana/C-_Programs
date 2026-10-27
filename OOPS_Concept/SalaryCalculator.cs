@@ -1,4 +1,4 @@
-class salary
+class SAlary
 {
     public void CalculateSalary(double basicSalary)
     {
@@ -20,7 +20,7 @@ class SalaryCalculator
 {
     public static void Run()
     {
-        salary s = new salary();
+        SAlary s = new SAlary();
 
         s.CalculateSalary(20000);
         s.CalculateSalary(20000, 5000);

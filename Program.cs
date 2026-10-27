@@ -1,1 +1,1 @@
-﻿StudentManagementSystem.Run();
+﻿SalaryCalculator.Run();

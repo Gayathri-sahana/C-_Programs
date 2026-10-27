@@ -1,4 +1,3 @@
-
 abstract class CAlculator
 {
     public abstract void Add(int a, int b);
@@ -34,7 +33,7 @@ class Abstraction_Calculator
     public static void Run()
     {
         MyCalculator c = new MyCalculator();
-
+       
         c.Add(10, 5);
         c.Sub(10, 5);
         c.Mul(10, 5);

@@ -1,9 +1,6 @@
-
-using System;
-
 class College
 {
-    public string collegeName = "ABC College";
+    public string collegeName = "KALASALINGAM University";
 
     public void ShowCollegeDetails()
     {
@@ -20,13 +17,13 @@ class Staff : College
     public void GetStaffDetails()
     {
         Console.Write("Enter Staff Name: ");
-        name = Console.ReadLine() ?? "";
+        name = Console.ReadLine();
 
         Console.Write("Enter Age: ");
         age = Convert.ToInt32(Console.ReadLine());
 
         Console.Write("Enter Department: ");
-        department = Console.ReadLine() ?? "";
+        department = Console.ReadLine();
     }
 
     public void DisplayStaffDetails()
@@ -48,7 +45,7 @@ class Studenttt : College
     public void GetStudentDetails()
     {
         Console.Write("Enter Student Name: ");
-        name = Console.ReadLine() ?? "";
+        name = Console.ReadLine();
 
         Console.Write("Enter Age: ");
         age = Convert.ToInt32(Console.ReadLine());
@@ -57,18 +54,19 @@ class Studenttt : College
         rollNo = Convert.ToInt32(Console.ReadLine());
 
         Console.Write("Enter Course: ");
-        course = Console.ReadLine() ?? "";
+        course = Console.ReadLine();
     }
 
     public void DisplayStudentDetails()
     {
         ShowCollegeDetails();
-        Console.WriteLine("Student Name: " + name);
+        Console.WriteLine("Student Name:" + name);
         Console.WriteLine("Age: " + age);
         Console.WriteLine("Roll No: " + rollNo);
         Console.WriteLine("Course: " + course);
     }
 }
+
 class CollegeManagementSystem
 {
     public static void Run()
@@ -102,3 +100,4 @@ class CollegeManagementSystem
         }
     }
 }
+

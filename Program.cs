@@ -1,1 +1,1 @@
-﻿SalaryCalculator.Run();
+﻿NumberGuessingGame.Run();
